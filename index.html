@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Properties</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+            justify-content: center;
+            height:4rem;
+            background-color: black;
+        }
+        header ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+        header ul a{
+            text-decoration: none;
+            padding: 0 2rem;
+            color:white;
+        }
+        header {
+            align-items: center;
+        }
+        .top_div {
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            background: linear-gradient(to left ,rgb(121, 42, 42),rgb(125, 21, 21),rgb(0, 0, 0));
+            color:white;
+        }
+        header div p {
+            align-items: center;
+        }
+        .main_image{
+            width:100% ;
+        }
+        div img {
+            border: black solid 1px;
+        }
+        .bg_grey {
+            background-color: lightgrey;
+            /* width:100%; */
+            /* text-align: center; */
+            
+        }
+        /* .light_grey {
+            background-color:lightgrey;
+        } */
+        .trending {
+            background-color: grey;
+            width: 90%;
+            height:10%;
+            padding: 1rem 2rem;
+            margin: 2rem 6rem;
+
+        }
+        .bg_grey {
+            display: flex;
+            align-items: center;
+            height: 10%;
+        }
+        .inner {
+            display: flex;
+            justify-content: space-around;
+            width: 90%;
+            height: 40%;
+            padding: 3rem 3rem;
+            margin: 2rem 2rem;
+            background: linear-gradient(to left ,rgb(121, 42, 42),rgb(125, 21, 21),rgb(15, 2, 2));
+        }
+        .text {
+            width:26rem;
+            color:white;
+            text-align: justify;
+            text-align: left;
+            
+        }
+        section {
+            height: 10%;
+        }
+        footer{
+            height: 50%;
+        }
+        .outer {
+            display: flex;
+            justify-content:center;
+            height: 80%;
+            background: linear-gradient(to left ,rgb(11, 10, 10),rgb(44, 39, 39), rgb(88, 85, 85))
+        }
+        footer div img {
+            border-radius: 50%;
+        }
+        .round_image {
+            /* border-radius: 60%; */
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top_div">
+            <p>Free Shipping for all orders now</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Brands</a></li>
+                <li><a href="#">Collection</a></li>
+                <form>
+                <li><input type="text" size="50"  >🔍</li>
+                </form>
+            </ul>
+        </nav>
+    </header>
+    <main >
+        <div class="main_image">
+            <img src="main image.png"    alt="image" width="100%">
+        </div>
+        <!-- <div class="light_grey"> -->
+            <section height="10%">
+        <div class="bg_grey">
+            <div class="trending">
+                <h1>Trending</h1>
+                <img src="001.png"  height="10%" width="15%" alt="">
+                <img src="002.png" height="10%" width="15%" alt="">
+                <img src="003.png" height="10%" width="15%" alt="">
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div class="outer">
+            <div class="inner">
+                <div class="text">
+                <h1>How did Air Jordan start?</h1>
+                <p>The first Air Jordan shoe was produced for basketball player Michael Jordan during his time with the Chicago Bulls in late 1984 and released to the public on April 1, 1985. The shoes were designed for Nike by Peter Moore, Tinker Hatfield, and Bruce Kilgore.<br><br>
+
+                    Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, dolore.<br><br>
+                    
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quo harum ea? Ab vel delectus labore voluptatem est architecto accusantium doloremque dolores quia quasi adipisci, veritatis velit voluptatum cupiditate id.</p>
+                </div>
+                <div class="round_image">
+                <img src=" 5.jpeg" alt="image">
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+    
+</body>
+</html>
